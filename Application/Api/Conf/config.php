@@ -10,7 +10,7 @@ return array(
     'URL_ROUTE_RULES'=>array(
 
         // 接口错误码对照表
-        ['error/all', 'apiCommon/errorCodes', API_SECRET_PARAM.'='.API_SECRET_CODE, ['method' => 'get']],
+//        ['error/all', 'apiCommon/errorCodes', API_SECRET_PARAM.'='.API_SECRET_CODE, ['method' => 'get']],
 
         //example
         ['Index', 'Index/index', API_SECRET_PARAM.'='.API_SECRET_CODE, ['method' => 'get']],
