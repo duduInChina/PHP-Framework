@@ -14,5 +14,7 @@ return array(
 
         //example
         ['Index', 'Index/index', API_SECRET_PARAM.'='.API_SECRET_CODE, ['method' => 'get']],
+
+        ['login', 'Login/login', API_SECRET_PARAM.'='.API_SECRET_CODE, ['method' => 'post']],
     ),
 );
